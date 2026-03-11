@@ -14,8 +14,6 @@ def home():
 # Machine readable
 def health_check():
     return{
-
-
         'status':'OK',
         'version':MODEL_VERSION,
         'model_loaded':model is not None
