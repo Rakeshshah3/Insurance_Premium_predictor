@@ -3,15 +3,7 @@ from fastapi.responses import JSONResponse
 from Schema.user_input import UserInput
 from model.predict import predict_output,model,MODEL_VERSION
 from Schema.prediction_response import PredictionResponse
-
-
-
-
-
 app = FastAPI()
-
-
-
 
 # Human readable       
 @app.get('/')
